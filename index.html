@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1.0">
+        <title>David Sandoval | Portfolio</title>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+              rel="stylesheet">
+        <link rel="stylesheet"
+              href="index.css">
+            
+    </head>
+
+    <body>
+
+        <!-- NAVBAR -->
+        <nav>
+            <h1>DAVID SANDOVAL</h1>
+            <div>
+                <a href="#about">ABOUT</a>
+                <a href="#experience">EXPERIENCE</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#education">EDUCATION</a>
+                <a href="#hobbies">HOBBIES</a>
+            </div>
+        </nav>
+
+        <!-- HERO -->
+        <section id="hero"
+                 style="position:relative; height:100vh; background:#0a0a0f; color:#ffffff; display:flex; align-items:center; justify-content:center;">
+            <canvas id="particles"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%;"></canvas>
+
+            <div
+                 style="position:relative; z-index:1; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; gap:20px; max-width:800px;">
+                <h1 style="font-size:3rem; margin:0; font-family: 'Inter', sans-serif;">
+                    Software Engineer Building Secure & Scalable Systems
+                </h1>
+                <p style="font-size:1.5rem; margin:0; font-style:italic;">
+                    "Discipline is the bridge between goals and accomplishment." — Jim Rohn
+                </p>
+                <div class="icons"
+                     style="font-size:2rem; display:flex; justify-content:center; gap:2rem;">
+                    <a href="https://github.com/jsandoval6"
+                       target="_blank"
+                       title="GitHub"
+                       style="color:#ffffff;">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/david-sandoval-563212215/"
+                       target="_blank"
+                       title="LinkedIn"
+                       style="color:#ffffff;">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="/resume.pdf"
+                       download
+                       title="Download Resume"
+                       style="color:#ffffff;">
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about"
+                 class="section">
+            <div class="section-content fade-in">
+                <h2>About Me</h2>
+                <p>
+                    I’m a Software Engineer who builds robust backend systems and automates processes to drive
+                    efficiency and
+                    reliability.
+                    With a strong eye for detail and a passion for cybersecurity, I design solutions that safeguard data
+                    while
+                    keeping systems scalable and high-performing.
+                </p>
+                <p>
+                    I enjoy diving into complex problems, investigating issues end-to-end, and collaborating with teams
+                    to
+                    deliver solutions that have a tangible impact.
+                    A lifelong learner, I’m always exploring new technologies and approaches to make systems more
+                    secure,
+                    resilient, and user-focused.
+                </p>
+            </div>
+            <div class="section-content fade-in">
+                <img src="public/images/beach2.jpg"
+                     alt="David Sandoval">
+            </div>
+        </section>
+
+
+        <!-- EXPERIENCE TIMELINE -->
+        <section id="experience"
+                 class="section"
+                 style="flex-direction:column;">
+            <h2 class="fade-in" id="experience-header"
+                style="text-align:center; margin-bottom:60px;">Experience</h2>
+            <div class="timeline">
+                <!-- Amazon Full -->
+                <div class="timeline-item fade-in left">
+                    <div class="timeline-content card">
+                        <h3>Software Engineer <span style="color:#0aa;">@ Amazon</span></h3>
+                        <p><em>Nov 2023 – Present</em></p>
+                        <ul>
+                            <li>Designed and built large-scale systems ensuring accurate product offers.</li>
+                            <li>Automated operational tasks, reducing manual effort and improving team efficiency.</li>
+                            <li>Performed investigations, testing, and root-cause analysis to prevent customer-impacting
+                                issues.</li>
+                            <li>Collaborated with cross-functional teams to deliver reliable, high-availability
+                                solutions.</li>
+                        </ul>
+                    </div>
+                    <img src="/public/images/amazon.svg"
+                         alt="Amazon Logo"
+                         class="timeline-img">
+                    <div class="arrow"></div>
+                </div>
+
+                <!-- Dominion Insurance -->
+                <div class="timeline-item fade-in right">
+                    <div class="timeline-content card">
+                        <h3>Web Developer <span style="color:#0aa;">@ Dominion Insurance</span></h3>
+                        <p><em>Aug 2021 – Nov 2023</em></p>
+                        <ul>
+                            <li>Built and maintained scalable APIs and backend services supporting core business
+                                operations.</li>
+                            <li>Diagnosed and resolved production issues to ensure stable and reliable system
+                                performance.</li>
+                            <li>Implemented modern UI frameworks to deliver intuitive and user-friendly interfaces.</li>
+                        </ul>
+                    </div>
+                    <img src="/public/images/logoDominion.svg"
+                         alt="Dominion Logo"
+                         class="timeline-img">
+                    <div class="arrow"></div>
+                </div>
+
+                <!-- Amazon Intern -->
+                <div class="timeline-item fade-in left">
+                    <div class="timeline-content card">
+                        <h3>Software Engineer Intern <span style="color:#0aa;">@ Amazon</span></h3>
+                        <p><em>May 2022 – Aug 2022</em></p>
+                        <ul>
+                            <li>Developed infrastructure enabling teams to migrate between programming languages
+                                smoothly and efficiently.</li>
+                            <li>Created documentation and presented tooling improvements to accelerate team adoption.
+                            </li>
+                        </ul>
+                    </div>
+                    <img src="/public/images/amazon.svg"
+                         alt="Amazon Intern Logo"
+                         class="timeline-img">
+                    <div class="arrow"></div>
+                </div>
+
+                <!-- BYU-PATHWAYS -->
+                <div class="timeline-item fade-in right">
+                    <div class="timeline-content card">
+                        <h3>Software QA Intern <span style="color:#0aa;">@ BYU-PATHWAYS</span></h3>
+                        <p><em>May 2021 – Aug 2021</em></p>
+                        <ul>
+                            <li>Executed test plans and test cases to ensure software quality across multiple releases.
+                            </li>
+                            <li>Supported defect triage and resolution using industry-standard QA tools.</li>
+                        </ul>
+                    </div>
+                    <img src="/public/images/byu.png"
+                         alt="BYU Logo"
+                         class="timeline-img">
+                    <div class="arrow"></div>
+                </div>
+
+                <!-- USAF -->
+                <div class="timeline-item fade-in left">
+                    <div class="timeline-content card">
+                        <h3>Personnel Specialist <span style="color:#0aa;">@ United States Air Force Reserves</span>
+                        </h3>
+                        <p><em>May 2019 – May 2025</em></p>
+                        <ul>
+                            <li>Supported Airmen by managing benefits, personnel actions, and administrative processes.
+                            </li>
+                            <li>Delivered high-quality customer service while maintaining accuracy, confidentiality, and
+                                policy compliance.</li>
+                        </ul>
+                    </div>
+                    <img src="/public/images/usaf.png"
+                         alt="USAF Logo"
+                         class="timeline-img">
+                    <div class="arrow"></div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education TIMELINE -->
+        <section id="education">
+            <h2>Education & Certifications</h2>
+            <div class="edu-tree">
+
+                <!-- Bachelor Degree -->
+                <div class="edu-node left">
+                    <div class="edu-card">
+                        <img src="/public/images/uvu.svg"
+                             alt="UVU Logo">
+                        <h3>Bachelor of Software Engineering (Summa Cum Laude)</h3>
+                        <p>Utah Valley University</p>
+                        <span>Aug 2020 – May 2023</span>
+                    </div>
+                </div>
+
+                <!-- Associate Degree -->
+                <div class="edu-node right">
+                    <div class="edu-card">
+                        <img src="/public/images/uvu.svg"
+                            alt="UVU Logo">
+                        <h3>Associate in Computer Science</h3>
+                        <p>Utah Valley University • High Honors</p>
+                        <span>Aug 2020 – May 2021</span>
+                    </div>
+                </div>
+
+                <!-- Cybersecurity Certificate -->
+                <div class="edu-node left">
+                    <div class="edu-card">
+                        <img src="/public/images/springboard.png"
+                            alt="Springboard Logo">
+                        <h3>Cybersecurity Certificate</h3>
+                        <p>Springboard</p>
+                        <span>May 2023 – Nov 2023</span>
+                    </div>
+                </div>
+
+                <!-- Security+ Certification -->
+                <div class="edu-node right">
+                    <div class="edu-card">
+                        <img src="/public/images/comptia.png"
+                            alt="CompTIA Logo">
+                        <h3>CompTIA Security+</h3>
+                        <p>CompTIA</p>
+                        <span>Nov 2023</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <!-- PROJECTS -->
+<section id="projects">
+    <h2>Featured Project</h2>
+    <div class="project-vertical">
+        <div class="project-card">
+            <img src="/public/images/project.png"
+                 alt="2D Game Portfolio">
+        </div>
+        <div class="project-content">
+            <h3>2D Game Portfolio</h3>
+            <p>An interactive game showcasing my skills and journey as a software engineer.</p>
+            <div class="project-links">
+                <a href="https://2d-game-portfolio-lac.vercel.app/"
+                   target="_blank">Play Game</a>
+                <a href="https://github.com/jsandoval6/2d-game-portfolio"
+                   target="_blank">View Code</a>
+            </div>
+            <p class="more-projects">
+                Check out <a href="https://github.com/jsandoval6"
+                   target="_blank">my GitHub</a> for more projects.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+        <!-- HOBBIES -->
+<section id="hobbies">
+    <h2>Hobbies & Lifestyle</h2>
+    <div class="hobbies-grid">
+        <div class="hobby-card">
+            <h3>Brazilian Jiu-Jitsu</h3>
+            <p>Discipline, problem-solving, and strategy on the mat.</p>
+        </div>
+        <div class="hobby-card">
+            <h3>Snowboarding</h3>
+            <p>Adventure and adrenaline in the mountains.</p>
+        </div>
+        <div class="hobby-card">
+            <h3>Traveling</h3>
+            <p>Exploring new cultures and amazing food experiences.</p>
+        </div>
+        <div class="hobby-card">
+            <h3>Food Enthusiast</h3>
+            <p>Savoring everything from ramen to tacos to sushi.</p>
+        </div>
+    </div>
+</section>
+
+        <script src="index.js"></script>
+            // Fade-in on scroll
+            const faders=document.querySelectorAll('.fade-in');
+            const appearOnScroll=new IntersectionObserver((entries,observer) => {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        entry.target.classList.add('show');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            },{threshold: 0.3});
+            faders.forEach(fader => appearOnScroll.observe(fader));
+
+            // Particle effect - White particles
+            const canvas=document.getElementById('particles');
+            const ctx=canvas.getContext('2d');
+            canvas.width=window.innerWidth;
+            canvas.height=window.innerHeight;
+            const particles=[];
+            for(let i=0;i<120;i++) {
+                particles.push({x: Math.random()*canvas.width,y: Math.random()*canvas.height,r: Math.random()*2+1,dx: (Math.random()-0.5)*1,dy: (Math.random()-0.5)*1});
+            }
+            function animate() {
+                ctx.clearRect(0,0,canvas.width,canvas.height);
+                particles.forEach(p => {
+                    ctx.beginPath();
+                    ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+                    ctx.fillStyle='rgba(255,255,255,0.7)';
+                    ctx.fill();
+                    p.x+=p.dx; p.y+=p.dy;
+                    if(p.x<0||p.x>canvas.width) p.dx*=-1;
+                    if(p.y<0||p.y>canvas.height) p.dy*=-1;
+                });
+                requestAnimationFrame(animate);
+            }
+            animate();
+            window.addEventListener('resize',() => {canvas.width=window.innerWidth; canvas.height=window.innerHeight;});
+        </script> -->
+
+    </body>
+
+</html>
