@@ -20,6 +20,7 @@
         <!-- NAVBAR -->
         <nav>
             <h1>DAVID SANDOVAL</h1>
+            
             <div>
                 <a href="#about">ABOUT</a>
                 <a href="#experience">EXPERIENCE</a>
@@ -27,6 +28,7 @@
                 <a href="#education">EDUCATION</a>
                 <a href="#hobbies">HOBBIES</a>
             </div>
+
         </nav>
 
         <!-- HERO -->
@@ -98,7 +100,7 @@
 
         <!-- EXPERIENCE TIMELINE -->
         <section id="experience"
-                 class="section"
+                 class="section fade-in"
                  style="flex-direction:column;">
             <h2 class="fade-in" id="experience-header"
                 style="text-align:center; margin-bottom:60px;">Experience</h2>
@@ -200,12 +202,12 @@
         </section>
 
         <!-- Education TIMELINE -->
-        <section id="education">
+        <section id="education" class="fade-in">
             <h2>Education & Certifications</h2>
             <div class="edu-tree">
 
                 <!-- Bachelor Degree -->
-                <div class="edu-node left">
+                <div class="edu-node left fade-in">
                     <div class="edu-card">
                         <img src="public/images/uvu.svg"
                              alt="UVU Logo">
@@ -216,7 +218,7 @@
                 </div>
 
                 <!-- Associate Degree -->
-                <div class="edu-node right">
+                <div class="edu-node right fade-in">
                     <div class="edu-card">
                         <img src="public/images/uvu.svg"
                             alt="UVU Logo">
@@ -227,7 +229,7 @@
                 </div>
 
                 <!-- Cybersecurity Certificate -->
-                <div class="edu-node left">
+                <div class="edu-node left fade-in">
                     <div class="edu-card">
                         <img src="public/images/springboard.png"
                             alt="Springboard Logo">
@@ -238,7 +240,7 @@
                 </div>
 
                 <!-- Security+ Certification -->
-                <div class="edu-node right">
+                <div class="edu-node right fade-in">
                     <div class="edu-card">
                         <img src="public/images/comptia.png"
                             alt="CompTIA Logo">
@@ -255,14 +257,14 @@
 
 
         <!-- PROJECTS -->
-<section id="projects">
+<section id="projects" class="fade-in">
     <h2>Featured Project</h2>
     <div class="project-vertical">
         <div class="project-card">
             <img src="public/images/project.png"
                  alt="2D Game Portfolio">
         </div>
-        <div class="project-content">
+        <div class="project-content fade-in">
             <h3>2D Game Portfolio</h3>
             <p>An interactive game showcasing my skills and journey as a software engineer.</p>
             <div class="project-links">
@@ -271,7 +273,7 @@
                 <a href="https://github.com/jsandoval6/2d-game-portfolio"
                    target="_blank">View Code</a>
             </div>
-            <p class="more-projects">
+            <p class="more-projects fade-in">
                 Check out <a href="https://github.com/jsandoval6"
                    target="_blank">my GitHub</a> for more projects.
             </p>
@@ -283,22 +285,22 @@
 
 
         <!-- HOBBIES -->
-<section id="hobbies">
+<section id="hobbies" class="fade-in">
     <h2>Hobbies & Lifestyle</h2>
-    <div class="hobbies-grid">
-        <div class="hobby-card">
+    <div class="hobbies-grid fade-in">
+        <div class="hobby-card fade-in">
             <h3>Brazilian Jiu-Jitsu</h3>
             <p>Discipline, problem-solving, and strategy on the mat.</p>
         </div>
-        <div class="hobby-card">
+        <div class="hobby-card fade-in">
             <h3>Snowboarding</h3>
             <p>Adventure and adrenaline in the mountains.</p>
         </div>
-        <div class="hobby-card">
+        <div class="hobby-card fade-in">
             <h3>Traveling</h3>
             <p>Exploring new cultures and amazing food experiences.</p>
         </div>
-        <div class="hobby-card">
+        <div class="hobby-card fade-in">
             <h3>Food Enthusiast</h3>
             <p>Savoring everything from ramen to tacos to sushi.</p>
         </div>
@@ -342,7 +344,7 @@
             }
             animate();
             window.addEventListener('resize',() => {canvas.width=window.innerWidth; canvas.height=window.innerHeight;});
-        </script> -->
+        </script>
 
     </body>
 
